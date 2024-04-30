@@ -24,6 +24,8 @@ app.use(cors());
 // });
 
 app.get("/", (req, res) => res.send("Express on Vercel"));
+app.get("/1", (req, res) => res.send("Express on Vercel22"));
+app.get("/2", (req, res) => res.send("Express on Vercel222"));
 
 const port = process.env.PORT || 3001;
 app.listen(port, () => {
