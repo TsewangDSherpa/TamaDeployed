@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { users, sequelize } = require("../models");
-const { validateToken } = require("../middlewares/AuthMiddleware");
+const { validateToken } = require("../middlewares/authmiddleware");
 const bcrypt = require("bcrypt");
 
 const { sign } = require("jsonwebtoken");
