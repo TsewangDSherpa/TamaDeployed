@@ -1,3 +1,25 @@
 {
-  
+  "development": {
+    "username": "avnadmin",
+    "password": "AVNS_e4Qg10s3xNGsusR1EJg",
+    "database": "cs490",
+    "host": "cs490-hyolmogamer03-9b00.d.aivencloud.com",
+    "port":"14109",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "avnadmin",
+    "password": "AVNS_e4Qg10s3xNGsusR1EJg",
+    "database": "cs490",
+    "host": "cs490-hyolmogamer03-9b00.d.aivencloud.com",
+    "port":"14109",
+    "dialect": "mysql"
+  }
 }
